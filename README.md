@@ -1,8 +1,15 @@
 # owldict
-- - -
+
 owldict is a command line dictionary that uses [owlbot](https://owlbot.info) to find definitions and examples of words.
 
 # Build
+### From crates.io
+If you have cargo on your system you can install owldict from crates.io like this
+```shell
+$ cargo install owldict
+```
+
+### From Source
 You can install owldict from source if you have Rust installed on your system:
 ```shell
 $ git clone https://github.com/SpyrosRoum/owldict.git

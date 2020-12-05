@@ -10,3 +10,4 @@ ureq = { version = "1", features = ["json"] }
 serde = "1"
 clap = "2"
 dotenv = "0.15"
+colored = "2"

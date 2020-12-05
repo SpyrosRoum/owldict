@@ -19,12 +19,11 @@ fn main() {
 
     let r = ureq::get(&word_url).set("Authorization", &token).call();
 
-    let entry = match r.into_json_deserialize::<entry::Entry>() {
-        Ok(e) => e,
+    match r.into_json_deserialize::<entry::Entry>() {
+        Ok(e) => println!("{}", e),
         Err(_) => {
             eprintln!("I wasn't able to find that word.");
             exit(1);
         }
     };
-    dbg!(&entry);
 }

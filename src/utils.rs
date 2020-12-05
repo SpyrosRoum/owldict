@@ -4,9 +4,9 @@ use clap::{App, Arg};
 
 pub(crate) fn get_word() -> String {
     let matches = App::new("OwlDict")
-        .version("1.0")
-        .author("Spyros Roum <spyrosr1@gmail.com>")
-        .about("A simple command line dictionary")
+        .version(clap::crate_version!())
+        .author(clap::crate_authors!())
+        .about(clap::crate_description!())
         .arg(
             Arg::with_name("word")
                 .help("The word to look for")

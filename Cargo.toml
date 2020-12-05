@@ -1,13 +1,12 @@
 [package]
 name = "owldict"
-version = "0.1.0"
+version = "1.0.0"
 authors = ["Spyros Roum <spyrosr1@gmail.com>"]
 edition = "2018"
 description = "A simple to use command line dictionary for english."
 readme = "README.md"
 repository = "https://github.com/spyrosroum/owldict"
 license = "GPL-2.0"
-license-file = "LICENSE"
 keywords = ["Dictionary"]
 
 [dependencies]

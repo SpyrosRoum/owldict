@@ -4,7 +4,7 @@ use clap::{App, Arg};
 
 pub(crate) fn get_word() -> String {
     let matches = App::new("OwlDict")
-        .version("0.1")
+        .version("1.0")
         .author("Spyros Roum <spyrosr1@gmail.com>")
         .about("A simple command line dictionary")
         .arg(

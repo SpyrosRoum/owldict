@@ -8,6 +8,7 @@ readme = "README.md"
 repository = "https://github.com/spyrosroum/owldict"
 license = "GPL-2.0"
 keywords = ["Dictionary"]
+categories = ["command-line-utilities"]
 
 [dependencies]
 ureq = { version = "1", features = ["json"] }
